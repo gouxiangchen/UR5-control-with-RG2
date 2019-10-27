@@ -15,6 +15,8 @@ No any other requirement and installation, just in python we could control a rea
 ## Code Structure
 The main functions are writen in ` test_main.py `.
 
+主要的控制功能函数都写在`test_main.py`文件里了
+
 `get_current_tcp()` to get the current tool center position of UR5 (x, y, z, rx, ry, rz) 
 
 本函数获取当前UR5机械臂工具末端位置，与示教器中的表示相同，6维浮点值
@@ -63,4 +65,7 @@ file `util.py` contains some coordinate transformation functions.
 
 `util.py`这个文件包含了一些坐标变换的函数。
 
+## Contact
+if any questions please contact me via zhixinc@buaa.edu.cn 
 
+如果有问题的话，可以邮箱联系我，zhixinc@buaa.edu.cn 陈狗翔
